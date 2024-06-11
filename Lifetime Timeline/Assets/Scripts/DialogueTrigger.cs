@@ -18,9 +18,13 @@ public class DialogueTrigger : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetKeyDown(interact))
+        if (onSign == true && Input.GetKeyDown(interact))
         {
             TriggerDialogue();
+        }
+        else
+        {
+
         }
     }
     public void OnTriggerEnter2D(Collider2D other)

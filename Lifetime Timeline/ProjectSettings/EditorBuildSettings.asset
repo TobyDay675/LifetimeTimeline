@@ -6,6 +6,63 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 133943a219006454eb0630ecdfd35632
+  - enabled: 1
     path: Assets/Scenes/2006.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/2007.unity
+    guid: 215b390ab63c76b4b8eef5b294a50fa1
+  - enabled: 1
+    path: Assets/Scenes/2008.unity
+    guid: 960d4311a02ccff47aa0ea5f58df9b17
+  - enabled: 1
+    path: Assets/Scenes/2009.unity
+    guid: 77535b77a981d7f4a849c150891eed38
+  - enabled: 1
+    path: Assets/Scenes/2010.unity
+    guid: b4d00b3660d770846aca4736b9b0075f
+  - enabled: 1
+    path: Assets/Scenes/2011.unity
+    guid: 020f5ddf06b696240a51e2174a7ed310
+  - enabled: 1
+    path: Assets/Scenes/2012.unity
+    guid: 05115dfcad6017642a532fbfacbacd81
+  - enabled: 1
+    path: Assets/Scenes/2013.unity
+    guid: 371f5626034506a4e9b3ff4a4a707ece
+  - enabled: 1
+    path: Assets/Scenes/2014.unity
+    guid: e1df442db937bd7499a0a83fee8f0be7
+  - enabled: 1
+    path: Assets/Scenes/2015.unity
+    guid: d6fe29cf1c129e44eb0490a93ebffd3a
+  - enabled: 1
+    path: Assets/Scenes/2016.unity
+    guid: 9ccb9c5ff977b2841bdc29d18e7f3894
+  - enabled: 1
+    path: Assets/Scenes/2017.unity
+    guid: bc3403207a1e52d4b97013c17c438c5a
+  - enabled: 1
+    path: Assets/Scenes/2018.unity
+    guid: 9140ae3371f836743bbeb474b02d3ad6
+  - enabled: 1
+    path: Assets/Scenes/2019.unity
+    guid: 276f18f3ee45a0c48973ecde3dd20b35
+  - enabled: 1
+    path: Assets/Scenes/2020.unity
+    guid: 131de67c087064646a553712b49ed226
+  - enabled: 1
+    path: Assets/Scenes/2021.unity
+    guid: 9dc68642899200647928c7688b91eadb
+  - enabled: 1
+    path: Assets/Scenes/2022.unity
+    guid: 5d45ad4c4c67ef94eb70ec99961ba312
+  - enabled: 1
+    path: Assets/Scenes/2023.unity
+    guid: 5d986dbcf721c8c4db8c924f6db3b4f5
+  - enabled: 1
+    path: Assets/Scenes/2024.unity
+    guid: 3fd8679e063c7ed43868afcdf30faa4b
   m_configObjects: {}
