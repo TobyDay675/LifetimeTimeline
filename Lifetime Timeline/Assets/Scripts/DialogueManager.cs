@@ -59,14 +59,14 @@ public class DialogueManager : MonoBehaviour
         {
             if (isCreepy == true)
             {
-                FindObjectOfType<SoundManager>().BringSoundBack();
+                //FindObjectOfType<SoundManager>().BringSoundBack();
             }
             EndDialogue();
             return;
         }
         if (conversation.Count == 2 && isCreepy == true)
         {
-            FindObjectOfType<SoundManager>().CutSound();
+            //FindObjectOfType<SoundManager>().CutSound();
         }
         DialoguePiece thisDialogue = conversation.Dequeue();
         characterName.text = thisDialogue.name;
@@ -91,7 +91,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (hasPause == true)
         {
-            PauseMenu.dialogueBoxes.Remove(dialogue);
+            //PauseMenu.dialogueBoxes.Remove(dialogue);
         }
         Time.timeScale = 1;
         dialogueOpen = false;

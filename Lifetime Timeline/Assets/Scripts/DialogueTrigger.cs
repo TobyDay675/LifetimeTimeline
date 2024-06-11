@@ -10,21 +10,27 @@ public class DialogueTrigger : MonoBehaviour
     public UnityEvent triggerOnCollision;
     public UnityEvent triggerOnCollide;
     public UnityEvent onSceneEnter;
-
+    private bool onSign;
+    public KeyCode interact;
     private void Awake()
     {
         onSceneEnter.Invoke();
     }
     public void Update()
     {
+        if (Input.GetKeyDown(interact))
+        {
+            TriggerDialogue();
+        }
     }
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        triggerOnCollide.Invoke();
+        onSign = true;
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+
+    public void OnTriggerExit(Collider other)
     {
-        triggerOnCollision.Invoke();    
+        onSign = false;
     }
     public void TriggerDialogue()
     {
